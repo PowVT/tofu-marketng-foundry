@@ -1,0 +1,12 @@
+## Tofu MarketNG w/ Foundry
+
+### Quick Start Commands
+
+```
+git clone
+forge install
+forge test
+forge test -vv
+forge test --match-path src test/MarketNG.t.sol
+forge build
+```
