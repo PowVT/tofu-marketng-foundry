@@ -74,6 +74,7 @@ contract MarketNGTest is Test {
         vm.startPrank(0xb4c79daB8f259C7Aee6E5b2Aa729821864227e84); // foundry deployer address
         marketNG.pause();
         assertTrue(marketNG.paused());
+        marketNG.unpause();
         marketNG.swap(req, signature);
         vm.stopPrank();
     }
